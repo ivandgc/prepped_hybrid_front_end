@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#app-title {
+  font-size: x-large;
+  font-family: 'Pacifico', cursive;
+}
+
+#__3_inCE7__ios-back-button-icon {
+  fill: black;
+}
+
+.userForm {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page__content {
+  padding-top: 50px;
+}
+
+#sideNav .page__content{
+  padding-top: 0;
+}
+
+#sideList{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ff781f;
+}
+.list-item {
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+#sideList .center.list-item__center{
+  text-align: center;
+  justify-content: center;
+  font-size: larger;
+  font-family: serif;
+}
+
+#toolbar {
+  height: 50px;
+  background-color: #ff781f;
+}
+
+.ons-icon.ion-navicon.ons-icon--ion {
+  color: black;
+}
+
+.mobile .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  width: 100%;
+  height: 20vw;
+}
+
+.mobile .recipeTitle {
+  font-size: medium;
+  text-align: center;
+  font-family: Garamond;
+  font-style: italic;
+  color: white;
+  text-shadow: -1.5px 0 rgba(0,0,0,0.5), 0 1.5px rgba(0,0,0,0.5), 1.5px 0 rgba(0,0,0,0.5), 0 -1.5px rgba(0,0,0,0.5);
+}
+
+
+
+.browser .container {
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  width: 100%;
+  height: 20vw;
+}
+
+.browser .recipeTitle {
+  font-size: 1.75em;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  background-color: rgba(255,255,255,0.6);
+  color: rgba(0,0,0,0.5) ;
+  text-shadow: -0.5px 0 rgba(0,0,0,0.5), 0 0.5px rgba(0,0,0,0.5), 0.5px 0 rgba(0,0,0,0.5), 0 -0.5px rgba(0,0,0,0.5);
+}
+
+.browser .titleContainer {
+  width: 100%;
+}
